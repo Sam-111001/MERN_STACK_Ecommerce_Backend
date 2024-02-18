@@ -14,7 +14,7 @@ app.use(cors());
 //---------Database connection with mongodb Atlas---------------------------------------------------------------------------
 mongoose
   .connect(
-    "mongodb+srv://Shamant:Mahantesh1.@cluster0.cldxice.mongodb.net/e-commerce"
+    ""
   )
   .then(console.log("Connected"));
 
